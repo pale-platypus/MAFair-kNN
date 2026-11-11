@@ -1,0 +1,46 @@
+# 200 ground-truth-feasible queries per workload (seed 10), written to data/<dataset>/icde/
+python generate_queries_ranged.py --dataset cbin --k 10 --m 3 --per-subset 8 --out data/cbin/icde/ranged_queries_k=10_m=3_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset cbin --k 10 --m 4 --per-subset 8 --out data/cbin/icde/ranged_queries_k=10_m=4_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset cbin --k 10 --m 5 --per-subset 8 --out data/cbin/icde/ranged_queries_k=10_m=5_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset cbin --k 10 --m 6 --per-subset 8 --out data/cbin/icde/ranged_queries_k=10_m=6_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset cbin --k 10 --m 8 --per-subset 8 --out data/cbin/icde/ranged_queries_k=10_m=8_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset sift10m --k 10 --m 3 --fast-gt --out data/sift10m/icde/ranged_queries_k=10_m=3_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset cbin --k 10 --m 10 --fast-gt --out data/cbin/icde/ranged_queries_k=10_m=10_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset fairface --k 10 --m 1 --out data/fairface/icde/ranged_queries_k=10_m=1_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset fairface --k 20 --m 1 --out data/fairface/icde/ranged_queries_k=20_m=1_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset fairface --k 50 --m 1 --out data/fairface/icde/ranged_queries_k=50_m=1_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset fairface --k 100 --m 1 --out data/fairface/icde/ranged_queries_k=100_m=1_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset fairface --k 200 --m 1 --out data/fairface/icde/ranged_queries_k=200_m=1_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset fairface --k 500 --m 1 --out data/fairface/icde/ranged_queries_k=500_m=1_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset fairface --k 1000 --m 1 --out data/fairface/icde/ranged_queries_k=1000_m=1_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset audio --k 5 --m 3 --out data/audio/icde/ranged_queries_k=5_m=3_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset audio --k 10 --m 3 --out data/audio/icde/ranged_queries_k=10_m=3_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset audio --k 15 --m 3 --out data/audio/icde/ranged_queries_k=15_m=3_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset audio --k 20 --m 3 --out data/audio/icde/ranged_queries_k=20_m=3_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset fairface --k 5 --m 3 --out data/fairface/icde/ranged_queries_k=5_m=3_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset fairface --k 10 --m 3 --out data/fairface/icde/ranged_queries_k=10_m=3_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset fairface --k 15 --m 3 --out data/fairface/icde/ranged_queries_k=15_m=3_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset fairface --k 20 --m 3 --out data/fairface/icde/ranged_queries_k=20_m=3_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset fairface --k 50 --m 3 --out data/fairface/icde/ranged_queries_k=50_m=3_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset celeba --k 10 --m 1 --out data/celeba/icde/ranged_queries_k=10_m=1_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset celeba --k 10 --m 2 --out data/celeba/icde/ranged_queries_k=10_m=2_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset celeba --k 10 --m 3 --out data/celeba/icde/ranged_queries_k=10_m=3_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset celeba --k 10 --m 4 --out data/celeba/icde/ranged_queries_k=10_m=4_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset celeba --k 10 --m 5 --out data/celeba/icde/ranged_queries_k=10_m=5_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset sift1m --k 10 --m 3 --out data/sift1m/icde/ranged_queries_k=10_m=3_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset sift1m --k 10 --m 3 --metadata-file data/sift1m/metadata_V5.npz --out data/sift1m/icde/ranged_queries_k=10_m=3_V5_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset sift1m --k 10 --m 3 --metadata-file data/sift1m/metadata_V10.npz --out data/sift1m/icde/ranged_queries_k=10_m=3_V10_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset sift1m --k 10 --m 3 --metadata-file data/sift1m/metadata_V20.npz --out data/sift1m/icde/ranged_queries_k=10_m=3_V20_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset sift1m --k 10 --m 3 --metadata-file data/sift1m/metadata_V50.npz --out data/sift1m/icde/ranged_queries_k=10_m=3_V50_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset cbin --k 10 --m 2 --out data/cbin/icde/ranged_queries_k=10_m=2_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset fairface --k 10 --m 2 --out data/fairface/icde/ranged_queries_k=10_m=2_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset fairface --k 20 --m 2 --out data/fairface/icde/ranged_queries_k=20_m=2_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset fairface --k 50 --m 2 --out data/fairface/icde/ranged_queries_k=50_m=2_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset fairface --k 100 --m 2 --out data/fairface/icde/ranged_queries_k=100_m=2_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset fairface --k 200 --m 2 --out data/fairface/icde/ranged_queries_k=200_m=2_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset fairface --k 500 --m 2 --out data/fairface/icde/ranged_queries_k=500_m=2_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset fairface --k 1000 --m 2 --out data/fairface/icde/ranged_queries_k=1000_m=2_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset fairface --k 100 --m 3 --out data/fairface/icde/ranged_queries_k=100_m=3_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset fairface --k 200 --m 3 --out data/fairface/icde/ranged_queries_k=200_m=3_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset fairface --k 500 --m 3 --out data/fairface/icde/ranged_queries_k=500_m=3_fdist=euclidean_200.pkl
+python generate_queries_ranged.py --dataset fairface --k 1000 --m 3 --out data/fairface/icde/ranged_queries_k=1000_m=3_fdist=euclidean_200.pkl

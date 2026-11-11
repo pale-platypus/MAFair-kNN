@@ -1,0 +1,7 @@
+# datasets, workloads and indexes (see README, "Data"); anchored so that scripts/data/ is kept
+/data/
+# raw per-run results and job logs
+/outputs/
+/logs/
+__pycache__/
+*.pyc

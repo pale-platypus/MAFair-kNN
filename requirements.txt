@@ -1,0 +1,11 @@
+# Python 3.11; the versions used for the paper
+numpy==1.26.4
+scipy==1.13.1
+pandas==2.3.1
+faiss-cpu==1.14.3
+chroma-hnswlib==0.7.6   # provides the `hnswlib` module
+ortools==9.8.3296
+PuLP==3.3.0
+tqdm==4.67.1
+psutil==5.9.4
+matplotlib==3.7.1
